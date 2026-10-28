@@ -12,7 +12,7 @@ jobs:
     container: ghcr.io/oca/oca-ci/py3.12-odoo20.0:latest
     services:
       postgres:
-        image: postgres:13
+        image: postgres:16
         env:
           POSTGRES_USER: odoo
           POSTGRES_PASSWORD: odoo
